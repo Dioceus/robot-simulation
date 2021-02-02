@@ -12,7 +12,7 @@
 #include "simulator.h"
 
 
-Environment    environment;  // The environment that contains all the robots
+Environment environment;  // The environment that contains all the robots
 
 
 /*
@@ -92,7 +92,7 @@ void *handleIncomingRequests(void *e) {
 
   	// Wait for clients now
 	while (online) {
-		// ... WRITE YOUR CODE HERE ... //
+		
 		FD_ZERO(&readfds);
 	 	FD_SET(serverSocket, &readfds);
 	 	FD_ZERO(&writefds);
