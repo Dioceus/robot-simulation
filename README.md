@@ -22,7 +22,7 @@ This will run the executable file in the background
 ```
 ./robotClient&
 ```
-This will run the executable file inthe background
+This will run the executable file in the background
 
 4) To stop the program run: 
 ```
