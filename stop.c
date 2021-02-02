@@ -15,6 +15,7 @@ int main() {
  	struct sockaddr_in serverAddr;
  	char inStr[80]; // stores user input from keyboard
 	char buffer[80]; // stores sent and received data
+	
   	// Register with the server
   	
  	// Create socket
