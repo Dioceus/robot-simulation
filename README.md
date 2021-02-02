@@ -1,5 +1,7 @@
 # robot-simulation# robot-simulation
 
+Multi-threaded robot collision simulation. Each robot runs a thread and communicates its location with UDP. 
+
 Clone the repository: 
 ```
 git clone https://github.com/Dioceus/robot-simulation.git
